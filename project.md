@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /project/
 ---
-[Click Here]({{site.github_page}}) to find on on my github page the projects I am working on. You can also  find bellow papers with description for each project.
+[Click Here]({{site.github_page}}) to find on on my github page the projects I am working on. You can also find bellow papers with descriptions for each project.
 
 <ul>
 	{% assign project = site.posts | where: "categories","project" %}

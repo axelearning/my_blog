@@ -3,7 +3,7 @@ layout: page
 title: Teaching
 permalink: /teaching/
 ---
-Even if I am a beginner a good exercice when you learn is to teach the subject. In that section you can find articles where I explain what I have learn.
+Even if I am a beginner a good exercise when you learn is to teach the subject. In that section, you can find articles where I explain what I have learned.
 
 <ul>
 	{% assign project = site.posts | where: "categories","teaching" %}

@@ -46,7 +46,7 @@ First of all to have a better insight of what I will learn, I tried to resume [t
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="/my_blog/{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

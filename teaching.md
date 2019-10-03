@@ -9,7 +9,7 @@ Even if I am a beginner a good exercice when you learn is to teach the subject. 
 	{% assign project = site.posts | where: "categories","teaching" %}
 	{% for post in project %}
 	    <li>
-	      <a href="{{ post.url }}">{{ post.title }}</a>
+	      <a href="/my_blog{{ post.url }}">{{ post.title }}</a>
 	    </li>
 	{% endfor %}
 </ul>

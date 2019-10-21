@@ -1,0 +1,102 @@
+I"�<h1>Welcome to my blog</h1>
+<p>Hey, here you can follow my progress in data science. Bellow I have mapped <strong>the learning path</strong> I am following. I will update that path as I discover more content. Of course, it is not an exhaustive list.</p>
+
+<p>In the sidebar, you can also find a section where I gather all <a href="http://localhost:4000/my_blog/project">the projects I am working on</a> - and <a href="http://localhost:4000/my_blog/teaching">a teaching section</a> where I explain the knowledge I have learned.</p>
+
+<blockquote>
+  <p>Value of knowledge shouldn’t depend upon where that knowledge was acquired <cite>— Giles McMullen-Klein</cite></p>
+</blockquote>
+
+<hr />
+
+<h2 id="1--first-step-in-data-science">1.  First step in data science</h2>
+<p>First of all, to have a better insight into what I will learn, I tried to resume <a href="first_article">the job of a data scientist</a>. Then I read <em>Vishal Maini &amp; Samer Sabri</em>’s book - <a href="https://everythingcomputerscience.com/books/Machine%20Learning%20for%20Humans.pdf">Machine learning for human</a>.
+<img src="https://axelearning.github.io/my_blog/assets/ml_human.png" alt="useful image" />
+<img src="https://i.imgur.com/gZvfBJL.jpg" alt="" /> {:height=”700px” width=”400px”}
+This is a good resource to start, this book gives a good overview of this broad subject. It is easy to understand for a first time in ML - a good mixte between analogies, exemples and technical explanation. You will find a lot of different resources to go deeper in the different fields - projects, videos, free books and so much more. The authors give as well some interesting personal advice at the end of the book.</p>
+
+<h4 id="what-i-have-learned">What I have learned?</h4>
+<ul>
+  <li>good insight and first intuition about the different fields of Machine Learning</li>
+</ul>
+
+<hr />
+
+<h2 id="2-math-and-python-basics">2. Math and Python basics</h2>
+
+<ul>
+  <li>
+    <p>Python basics: already do with my background. I will do some exercise to refresh and improve my learning skills</p>
+  </li>
+  <li>
+    <p>Math</p>
+    <ul>
+      <li>Linear Algebra</li>
+      <li>Calculus</li>
+      <li>probability and statistics</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="3futur-work">3.Futur work</h2>
+
+<ul>
+  <li>
+    <p>dive into all the link of the book to go a bit deeper in all the learning method</p>
+  </li>
+  <li>Dive into Python
+    <ul>
+      <li>Python project</li>
+      <li>Data exploration and data visualization</li>
+      <li>Python and data science</li>
+      <li>Data structure and algorithms in python</li>
+    </ul>
+  </li>
+  <li>Machine learning
+    <ul>
+      <li>statistical learning</li>
+      <li>TensorFlow</li>
+    </ul>
+  </li>
+  <li>Other useful language
+    <ul>
+      <li>SQL</li>
+      <li>R</li>
+      <li>Git and version control</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>Special thanks to the YouTuber <a href="https://www.youtube.com/channel/UC68KSmHePPePCjW4v57VPQg"><em>Giles McMullen-Klein</em></a>. This guy gather a lot of different resources about data science. Those videos are superb and motivational. I highly recommend you follow his channel! Most of the content below come from his video <a href="https://www.youtube.com/watch?v=eTxyviU0Ddo&amp;feature=share&amp;fbclid=IwAR1Ldib0ETlVNsHHEt_TU99SMggVk_AKFvCfd0Zm-THIN7K33spV6-ayTxY">“Can you LEARN DATA SCIENCE for FREE?”</a></p>
+</blockquote>
+
+<hr />
+
+<p><br /></p>
+<h1>Posts</h1>
+<ul>
+  
+    <li>
+      <a href="/my_blog//teaching/2019/10/02/teaching_test.html">My first class</a>
+    </li>
+  
+    <li>
+      <a href="/my_blog//teaching/2019/10/02/teaching_test-copy.html">My second class</a>
+    </li>
+  
+    <li>
+      <a href="/my_blog//project/2019/10/02/project_test.html">My first project</a>
+    </li>
+  
+    <li>
+      <a href="/my_blog//project/2019/10/02/project_test-copy.html">My second project</a>
+    </li>
+  
+    <li>
+      <a href="/my_blog//welcome_to_jekyll">Welcome to Jekyll!</a>
+    </li>
+  
+</ul>
+
+:ET

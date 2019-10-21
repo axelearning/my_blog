@@ -428,3 +428,19 @@ a.pagination-item:hover {
     border-bottom-right-radius: 4px;
   }
 }
+
+
+figure {
+    display: inline-block;
+}
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+figure figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}

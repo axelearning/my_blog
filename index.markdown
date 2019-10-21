@@ -13,8 +13,9 @@ In the sidebar, you can also find a section where I gather all [the projects I a
 ## 1.  First step in data science
 First of all, to have a better insight into what I will learn, I tried to resume [the job of a data scientist](first_article). Then I read Vishal Maini & Samer Sabri's book. This is a good resource to start, with a good overview of this broad subject.
 
-
-<a href="https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12"><img src="./assets/ml_human.jpg" class="center"></a>
+<figure>
+  <a href="https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12"><img src="./assets/ml_human.jpg" class="center"></a>
+</figure>
 
 
 It is easy to understand for a first step in Machine learning - a good mixte between analogies, exemples and technical explanation. You will find a lot of different resources to go deeper in the different fields - projects, videos, books and so much more. The authors give as well some interesting personal advice at the end of the book.

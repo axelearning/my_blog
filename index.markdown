@@ -11,10 +11,11 @@ In the sidebar, you can also find a section where I gather all [the projects I a
 <hr>
 
 ## 1.  First step in data science
-First of all, to have a better insight into what I will learn, I tried to resume [the job of a data scientist](first_article). Then I read Vishal Maini & Samer Sabri's book. This is a good resource to start, with a good overview of this broad subject.
+First of all, to have a better insight into what I will learn, I tried to resume [the job of a data scientist]({{site.url}}/my_blog/what_does_a_datascientist). Then I read Vishal Maini & Samer Sabri's book. This is a good resource to start, with a good overview of this broad subject.
 
 <figure>
-  <a href="https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12"><img src="./assets/ml_human.jpg" class="center"></a>
+  <a href="https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12"><img src="./assets/ml_human.jpg">
+  </a>
 </figure>
 
 
@@ -59,7 +60,7 @@ If I want to go deeper, I need to understand all the math around Machine learnin
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="/my_blog/{{ post.url }}">{{ post.title }}</a>
+      <a href="/my_blog{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

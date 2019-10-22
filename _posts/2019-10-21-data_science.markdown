@@ -10,7 +10,7 @@ permalink: /what_does_a_datascientist
 The role of a data scientist is to `solve real company probleme using data`. For this purpose, a data scientist will need to know how to code, and also have a good understanding of math and algorithms, from those skills he will be able to gain insight from data. Then he is using that insight by making prediction and draw conclusion. 
 
 <figure>
-  <img src="./assets/datascience.png" class="center">
+  <img src="./assets/datascience.png">
   <figcaption>Venn diagram of the skills of a Data scientist - Drew Conway</figcaption>
 </figure>
 

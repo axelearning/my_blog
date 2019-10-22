@@ -1,4 +1,4 @@
-I"L<h1>Welcome to my blog</h1>
+I"h<h1>Welcome to my blog</h1>
 <p>Hey, here you can follow my progress in data science. Bellow I have mapped <code class="highlighter-rouge">the learning path</code> I am following. I will update that path as I discover more content. Of course, it is not an exhaustive list.</p>
 
 <p>In the sidebar, you can also find a section where I gather all <a href="http://localhost:4000/my_blog/project">the projects I am working on</a> - and <a href="http://localhost:4000/my_blog/teaching">a teaching section</a> where I explain the knowledge I have learned.</p>
@@ -10,10 +10,11 @@
 <hr />
 
 <h2 id="1--first-step-in-data-science">1.  First step in data science</h2>
-<p>First of all, to have a better insight into what I will learn, I tried to resume <a href="first_article">the job of a data scientist</a>. Then I read Vishal Maini &amp; Samer Sabri’s book. This is a good resource to start, with a good overview of this broad subject.</p>
+<p>First of all, to have a better insight into what I will learn, I tried to resume <a href="http://localhost:4000/my_blog//what_does_a_datascientist">the job of a data scientist</a>. Then I read Vishal Maini &amp; Samer Sabri’s book. This is a good resource to start, with a good overview of this broad subject.</p>
 
 <figure>
-  <a href="https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12"><img src="./assets/ml_human.jpg" class="center" /></a>
+  <a href="https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12"><img src="./assets/ml_human.jpg" />
+  </a>
 </figure>
 
 <p>It is easy to understand for a first step in Machine learning - a good mixte between analogies, exemples and technical explanation. You will find a lot of different resources to go deeper in the different fields - projects, videos, books and so much more. The authors give as well some interesting personal advice at the end of the book.</p>
@@ -73,15 +74,15 @@
 <ul>
   
     <li>
-      <a href="/my_blog//what_does_a_datascientist">What does a data scientist?</a>
+      <a href="/my_blog/what_does_a_datascientist">What does a data scientist?</a>
     </li>
   
     <li>
-      <a href="/my_blog//teaching/2019/10/02/teaching_test.html">My first class</a>
+      <a href="/my_blog/teaching/2019/10/02/teaching_test.html">My first class</a>
     </li>
   
     <li>
-      <a href="/my_blog//project/2019/10/02/project_test.html">My first project</a>
+      <a href="/my_blog/project/2019/10/02/project_test.html">My first project</a>
     </li>
   
 </ul>

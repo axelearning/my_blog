@@ -2,7 +2,7 @@
 layout: post
 title:  "What does a data scientist?"
 date:   2019-10-21 
-permalink: /what_does_a_datascientist
+permalink: what_does_a_datascientist
 ---
 
 >Data science is a multidisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from structured and unstructured data - *Wikipedia*

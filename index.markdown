@@ -27,18 +27,23 @@ It is easy to understand for a first step in Machine learning - a good mixte bet
 <hr>
 
 ## 2. Math
-If I want to go deeper, I need to understand all the math around Machine learning.  
-  * Linear Algebra  
-  * Calculus  
-  * probability and statistics
+To have a deeper understanding of machine learning, I review some mathematical knowledge. My goal is about creating mathematical intuition rather than learn the formulas and computation methods. Here are the important notions behind machine learning: 
+  * Introduction to [Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) and [Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr): I highly recommend to see the videos of Grant Sanderson about those concepts. His visual approach with superb animations will give you solid conceptualisation of those subjects.
+  * Multivariable calculus: [Khan Academy](https://www.khanacademy.org/math/multivariable-calculus) - introduction to important tools as multivariable maxima and minima, constrained optimization … 
+  * Probability and statistics: [Khan Academy](https://www.khanacademy.org/math/statistics-probability) - introduction to important tools as regression, confidence intervals, significance test...  
+
+`What I have learned?`
+  - review the important tools of multivariables calculus and statistics
+  - obtain a visual understanding of those concepts
 
 
 ## 3.Futur work
-- Python basics: already do with my background. I will do some exercise to refresh and improve my learning skills
+- First python project to review the basic of Python
 - dive into all the link of the book to go a bit deeper in all the learning method
+- take the standford class about machine learning
+- read the book
 
-- Dive into Python
-  * Python project 
+- Subject we need to cover:
   * Data exploration and data visualization 
   * Python and data science  
   * Data structure and algorithms in python  

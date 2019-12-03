@@ -11,7 +11,7 @@ In the sidebar, you can also find a section where I gather all [the projects I a
 <hr>
 
 ## 1.  First step in data science
-First of all, to have a better insight into what I will learn, I tried to resume [the job of a data scientist]({{site.url}}/my_blog/what_does_a_datascientist). Then I read Vishal Maini & Samer Sabri's book. This is a good resource to start, with a good overview of this broad subject.
+First of all, it is important to have a good overview of this broad subject. In that purpose, understanding [the job of a data scientist]({{site.url}}/my_blog/what_does_a_datascientist) is primordial. Then I recommend Vishal Maini & Samer Sabri's book, this is a good resource to start, with The big picture of artificial intelligence and machine learning.
 
 <figure>
   <a href="https://medium.com/machine-learning-for-humans/why-machine-learning-matters-6164faf1df12"><img src="./assets/ml_human.jpg">
@@ -19,23 +19,28 @@ First of all, to have a better insight into what I will learn, I tried to resume
 </figure>
 
 
-It is easy to understand for a first step in Machine learning - a good mixte between analogies, exemples and technical explanation. You will find a lot of different resources to go deeper in the different fields - projects, videos, books and so much more. The authors give as well some interesting personal advice at the end of the book.
+This series is a guide for getting up-to-speed on high-level machine learning concepts. It is easy to understand with a good mixte between analogies, exemples and technical explanation. You will find a lot of different resources to go deeper in the different fields - projects, videos, books and so much more. The authors give as well some interesting personal advice at the end of the book.
 
-`What I have learned?`
+## `What I have learned?`
   - good insight and first intuition about the different fields of Machine Learning 
 
 <hr>
 
 ## 2. Math
-To have a deeper understanding of machine learning, I review some mathematical knowledge. My goal is about creating mathematical intuition rather than learn the formulas and computation methods. Here are the important notions behind machine learning: 
-  * Introduction to [Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) and [Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr): I highly recommend to see the videos of Grant Sanderson about those concepts. His visual approach with superb animations will give you solid conceptualisation of those subjects.
-  * Multivariable calculus: [Khan Academy](https://www.khanacademy.org/math/multivariable-calculus) - introduction to important tools as multivariable maxima and minima, constrained optimization … 
-  * Probability and statistics: [Khan Academy](https://www.khanacademy.org/math/statistics-probability) - introduction to important tools as regression, confidence intervals, significance test...  
+To have a deeper understanding of machine learning, I review some mathematical knowledge. My goal is about creating mathematical intuition rather than learn the formulas and computation methods. 
+### ✔︎ Introduction to Linear Algebra and Calculus
+  [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) & [Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr): I highly recommend to see the videos of Grant Sanderson. His visual approach with superb animations will give you solid conceptualisation of those subjects. 
 
-`What I have learned?`
+### ✔︎ Multivariable calculus 
+  [MVC Khan Academy](https://www.khanacademy.org/math/multivariable-calculus): Khan Academy and Grant Sanderson worked together in the purpose to create a course with a visual meaning of important tools useful in the field of Multivariable Maxima and Minima and Constrained Optimization. You will learn about Gradient, Laplacian, lagrangian multiplier and so on. 
+
+### ✔︎ Probability and statistics
+  [Statistics and probability Khan Academy](https://www.khanacademy.org/math/statistics-probability): This interactif and well design course provide an introduction to important tools as Regression, Confidence Intervals, Significance Test and so much more. 
+
+## `What I have learned?`
   - review the important tools of multivariables calculus and statistics
   - obtain a visual understanding of those concepts
-
+<hr>
 
 ## 3.Futur work
 - First python project to review the basic of Python

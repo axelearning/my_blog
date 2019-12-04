@@ -42,25 +42,34 @@ To have a deeper understanding of machine learning, I review some mathematical k
   - obtain a deep visual understanding of those concepts
 <hr>
 
-## 3.Futur work
-- First python project to review the basic of Python
-- dive into all the link of the book to go a bit deeper in all the learning method
-- take the standford class about machine learning
-- read the book
+# 3.Futur work
+- Follow [the Harvard Data Science class](https://matterhorn.dce.harvard.edu/engage/ui/index.html#/2016/01/14328)
+- Statistical learning : An introduction to statistical learning
+- Read the book *Python for Data Analysis*: 
+  
+    `➜ Learn how to "Munge": manipulating, processing, cleanning, and crunching data into python`
 
-- Subject we need to cover:
-  * Data exploration and data visualization 
-  * Python and data science  
-  * Data structure and algorithms in python  
+    * Data loading
+    * Data cleaning and Preparation
+    * Data Wrangling : Join, Combine, and Reshape
+    * Plotting and Vizualisation
+    * Data Aggregation
 
-- Machine learning   
-  * statistical learning  
+
+- review the link of the book: *Machine Learning for human*
+- Machine learning ➜ Hand-On book - *Aurelien Géron*:
+  * Scikit-Learning  
   * TensorFlow
 
 - Other useful language  
   * SQL 
   * R  
   * Git and version control
+<hr>
+
+# 4.Projects
+  - A software who gather all the important job offer
+<hr>
 
 > Special thanks to the YouTuber [*Giles McMullen-Klein*](https://www.youtube.com/channel/UC68KSmHePPePCjW4v57VPQg). This guy gather a lot of different resources about data science. Those videos are superb and motivational.
 

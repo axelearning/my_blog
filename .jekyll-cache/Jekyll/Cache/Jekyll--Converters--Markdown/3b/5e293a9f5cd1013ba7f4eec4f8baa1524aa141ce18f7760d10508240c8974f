@@ -1,4 +1,4 @@
-I"/<h1 id="how-i-learned-data-science">How I learned Data Science?</h1>
+I"³<h1 id="how-i-learned-data-science">How I learned Data Science?</h1>
 <p>Hey, welcome on bord, here you can follow my progress in data science. Below I have mapped <code class="highlighter-rouge">the learning path</code> I am following. I will update that path as I discover more content. Of course, it is not an exhaustive list.</p>
 <hr />
 
@@ -110,6 +110,10 @@ In the next following sections, we will go through all this different fields.</p
 <p><br /></p>
 <h1>Posts</h1>
 <ul>
+  
+    <li>
+      <a href="/my_blog/project/2020/03/24/Most_prolific_players.html">Who are the Most Prolific Players?</a>
+    </li>
   
     <li>
       <a href="/my_blog/what_does_a_datascientist">What does a data scientist?</a>

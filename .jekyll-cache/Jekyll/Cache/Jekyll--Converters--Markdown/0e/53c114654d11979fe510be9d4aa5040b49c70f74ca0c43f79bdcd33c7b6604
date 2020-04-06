@@ -1,165 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-  <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
-    
-      Who are the Most Prolific Players? &middot; A DATA SCIENCE LEARNING BLOG
-    
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/my_blog/public/css/poole.css">
-  <link rel="stylesheet" href="/my_blog/public/css/syntax.css">
-  <link rel="stylesheet" href="/my_blog/public/css/lanyon.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/my_blog/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="/my_blog/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-</head>
-
-
-  <body class="theme-base-0c">
-
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p></p>
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/my_blog/">Home</a>
-
-    
-
-    
-    
-      
-    
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/my_blog/about/">About me</a>
-        
-      
-    
-      
-    
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/my_blog/project/">Projects</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/my_blog/teaching/">Teaching</a>
-        
-      
-    
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; 2020. Lanyon design, all rights reserved.
-    </p>
-     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<div id="share-bar">
-
-    <div class="share-buttons">
-
-        <a  href="https://fr.linkedin.com/in/axel-rasse-bbbb3812b"
-            title="LinkedIn icon" >
-            <i class="fa fa-linkedin share-button"></i>
-        </a>
-
-        <a  href="https://github.com/axelearning"
-            title="github icon" >
-            <i class="fa fa-github"></i>
-        </a>
-
-    </div>
-
-</div>
-
-<style>
-    /* Share Bar */
-    #share-bar {
-        font-size: 25px;
-    }
-
-    /* Each button */
-    .share-button {
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-right: 5px;
-        padding: 5px 10px 5px 10px;
-    }
-    .share-button:hover {
-        opacity: 1;
-        color: #ffffff;
-    }
-
-    /* LinkedIn button */
-    .fa-linkedin {
-        color: #444444;
-    }
-    .fa-linkedin:hover {
-        background-color: #444444;
-    }
-
-    /* github button */
-    .fa-github {
-        color: #444444;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-right: 5px;
-        padding: 5px 10px 5px 10px;
-    }
-    .fa-github:hover {
-        background-color: #444444;
-        opacity: 1;
-        color: #ffffff;
-    }
-</style>
-  </div>
-</div>
-
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/my_blog/" title="Home">A DATA SCIENCE LEARNING BLOG</a>
-            <small></small>
-          </h3>
-        </div>
-      </div>
-      <div class="container content">
-        <div class="post">
-  <h1 class="post-title">Who are the Most Prolific Players?</h1>
-  <span class="post-date">24 Mar 2020</span>
-  <p>Today we will speak about one of my favorite hobbies: <strong>Football.</strong> The purpose of this project is to level up my skills in different fields while I am working on a subject I love. We will start from scratch by collecting our own data and end up by designing a <strong>dashboard</strong>. The goal is to find the most prolific soccer players on the season 2019-2020. Just bellow, you can find the final result. Underneath the dashboard, We will roll back the process together and discover how we can create this neat interactive visualization.</p>
+I"sL<p>Today we will speak about one of my favorite hobbies: <strong>Football.</strong> The purpose of this project is to level up my skills in different fields while I am working on a subject I love. We will start from scratch by collecting our own data and end up by designing a <strong>dashboard</strong>. The goal is to find the most prolific soccer players on the season 2019-2020. Just bellow, you can find the final result. Underneath the dashboard, We will roll back the process together and discover how we can create this neat interactive visualization.</p>
 
 <div class="tableauPlaceholder" id="viz1585028433847" style="position: relative">
 	<noscript>
@@ -273,7 +112,8 @@ In my case, I make the choice to group the game during the season in four bucket
 
 <hr />
 <h1 id="3-design-the-visualisation">3. Design the visualisation</h1>
-<p>Python libraries as matplotlib, seaborn, plotly, and others are very functional and capable of almost any visualization. On the other hand, Tableau is quite easy to use, with a large panel of tools, and gives us wonderful visualization. Moreover, Tableau’s built-in instruments speed the process of complex visualization. For instance, it is effortless to create a map plot or use interactive filters. Tableau is a strong tool when we want to present our results to a client or when the visualization is really important. However, it could be annoying to juggling between Tableau for data visualization and Python. Therefore, if we just create basic visualization for gaining insight from the data we are good with Python.  In some cases, when we need extra customization, we can also hit the limit of Tableau in this case we have to use Python as well.</p>
+<p><strong>How to chose between Tableau or Python visualisation ?</strong><br /> 
+Python libraries as matplotlib, seaborn, plotly, and others are very functional and capable of almost any visualization. On the other hand, Tableau is quite easy to use, with a large panel of tools, and gives us wonderful visualization. Moreover, Tableau’s built-in instruments speed the process of complex visualization. For instance, it is effortless to create a map plot or use interactive filters. Tableau is a strong tool when we want to present our results to a client or when the visualization is really important. However, it could be annoying to juggling between Tableau for data visualization and Python. Therefore, if we just create basic visualization for gaining insight from the data we are good with Python.  In some cases, when we need extra customization, we can also hit the limit of Tableau in this case we have to use Python as well.</p>
 
 <p><strong>What I have done?</strong> <br /> 
 In my case, I keep the dashboard simple, with two plots. The one on the top relates the number of goals and assists of the ten best players. The bottom one, “Average time per Goals”, display the ten most effective scorer, I mean players with the best ratio of goals by minutes played. The Dashboard are interactive with two filters.  The first one, give the possibility to play on a range of date and the other to pick the competition type - domestic league, cup, and  European cup. I add some additional information in the tooltip of each plot as well.</p>
@@ -338,53 +178,11 @@ In my case, I keep the dashboard simple, with two plots. The one on the top rela
 <p>To have better explanation on this topic you might want take a look at this posts:</p>
 
 <ul>
-  <li><a href="https://www.launchd.info/"><strong>Launchd documentation</strong></a>, complete and well explain</li>
-  <li><a href="https://www.maketecheasier.com/use-launchd-run-scripts-on-schedule-macos/"><strong>How to Use launchd to Run Scripts on Schedule in macOS</strong></a>, detailed explanation of the process</li>
+  <li>[<strong>Launchd documentation](https://www.launchd.info/),</strong> complete and well explain</li>
+  <li>[<strong>How to Use launchd to Run Scripts on Schedule in macOS](https://www.maketecheasier.com/use-launchd-run-scripts-on-schedule-macos/),</strong> detailed explanation of the process</li>
 </ul>
 
 <h1 id="conclusion">Conclusion</h1>
 <hr />
 <p>I realised how is it important to work on personal project to level up and sharpen my skills. Moreover, as long as we clearly define what we want to do grammatical language programming are easy to find online - when the community is wide. That why from my perspective, the most important skills are for me computer thinking, and problems solving.</p>
-
-</div>
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    
-      <li>
-        <h3>
-          <a href="/my_blog/what_does_a_datascientist">
-            What does a data scientist?
-            <small>21 Oct 2019</small>
-          </a>
-        </h3>
-      </li>
-    
-  </ul>
-</div>
-
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
-  </body>
-</html>
+:ET

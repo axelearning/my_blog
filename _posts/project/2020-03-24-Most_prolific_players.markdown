@@ -15,7 +15,7 @@ Today we will speak about one of my favorite hobbies: **Football.** The purpose 
 	<object class='tableauViz'  style='display:none;'>
 		<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
 		<param name='embed_code_version' value='3' /> 
-		<param name='site_root' value='' />
+		<param name='site_root' value='' />\
 		<param name='name' value='SoccerprojectV2&#47;Dashboard' />
 		<param name='tabs' value='no' />
 		<param name='toolbar' value='no' />
@@ -42,6 +42,7 @@ Today we will speak about one of my favorite hobbies: **Football.** The purpose 
 - **Web Scrapping:** After playing around with *Beautifull Soup* and Se*lenium*, I now have in my toolkits the basic skill of dynamic scrapping
 - **Data Analysis:** I have increased my skills in processing messy data into a structured and clean form.  I also gain insight and create new interesting features to improve the visualization
 - **Data Visualisation:** I discover Tableau public and all the cool features of this software.
+- **UNIX command:** I expanded my skill in the shell while I was creating the automation of the program
 
 ___  
 In this article, I will share with you my experience on this first project. Nevertheless, we will not go too much in code detailed so if you are interested and want to go deeper, you can find all the files of this project on my GitHub page, just right here. 
@@ -51,8 +52,10 @@ In this article, I will share with you my experience on this first project. Neve
 3. **Design the visualisation**
 4.  **Leave the loop**
 
-___
-## 1. Get the data
+
+
+---
+# 1. Get the data
 Welcome guys in the most important part of the project: collecting the data. We need to be careful regarding the source of our data. We can create the most insightful visualization but if we are using crapy data we can not output a valuable product. Data are the fuel of our car, without it, we can't go anywhere! Even if we have the last Lamborghini, or if we are Lewis Hamilton's brother. 
 
 
@@ -91,8 +94,10 @@ To sum up, we create our own database with python web scraping libraries to have
 - **[Automate TINDER with Python tutorial](https://www.youtube.com/watch?v=lvFAuUcowT4&t=109s),** a tutorial  video which go through all the process to create a bot
 - **[An introduction to dynamique Web Scrapping](https://medium.com/ymedialabs-innovation/web-scraping-using-beautiful-soup-and-selenium-for-dynamic-page-2f8ad15efe25#5dd0)** with Selenium and Beautiful Soup
 
-___
-## 2. Clean and prepared the database 
+
+
+---
+# 2. Clean and prepared the database 
 The goal of this part is to clean and prepare the data before visualization. Here we will use python data analysis library, called [pandas](https://en.wikipedia.org/wiki/Pandas_(software)), which provides an effective solution to perform data preparation. I mean loading, cleaning, transforming, and rearranging the data. Data preparation might be an annoying task and it is often time-consuming. Therefore, the active and wide community in stack overflow of pandas is a must-have when you begin in data science and you get often stuck. In our case, we proceed with basic tasks such as handling missing data or converting data type. For more detailed take a look at the Jupyter notebook on the GitHub page, detailed_stats/analysis.ipynb, I tried to write annotations during the process. 
 
 ---
@@ -110,10 +115,10 @@ For example, in his domestic league, Erling Haaland scored 25 times but he score
 
 Finally, we have a decent input for our final visualization! Do not forget this is an iterative process between preparation and visualization. I do not create this analysis in one shot, I create a basic simple analysis. Then, I was growing insight into Tableau by exploring the data. Thus, I was able to have a clear idea of what I want for my Dashboard. I transform that idea into new features by going back on my Jupyter Notebook and so on until I was satisfied with my Dashboard. In the next part, we will see why we bother to handle the visualization part on Tableau instead of simply using python visualization libraries. To go deeper into analysis with python, I recommend the [book](https://wesmckinney.com/pages/book.html) of Wes McKinney, a superb resource to get started with pandas and the other data science libraries!
 
----
-## 3. Design the visualisation
 
-**How to chose between Tableau or Python visualisation ?**<br/> 
+
+---
+# 3. Design the visualisation
 Python libraries as matplotlib, seaborn, plotly, and others are very functional and capable of almost any visualization. On the other hand, Tableau is quite easy to use, with a large panel of tools, and gives us wonderful visualization. Moreover, Tableau's built-in instruments speed the process of complex visualization. For instance, it is effortless to create a map plot or use interactive filters. Tableau is a strong tool when we want to present our results to a client or when the visualization is really important. However, it could be annoying to juggling between Tableau for data visualization and Python. Therefore, if we just create basic visualization for gaining insight from the data we are good with Python.  In some cases, when we need extra customization, we can also hit the limit of Tableau in this case we have to use Python as well. 
 
 **What I have done?** <br/> 
@@ -125,18 +130,64 @@ To conclude this part, our beautiful visualization can already be used. However,
 - **[10 Tableau Dashboard Design Tips](https://www.youtube.com/watch?v=Lu0jrymqOGM&t=734s),** a youtube video to create a clean Dashboard
 - **[Tips and Tricks from a Tableau Jedi](https://www.youtube.com/watch?v=CAZ3IAJEuCI&t=1505s),** a youtube video with some useful tips
 
-___
-## 4. Get out of the loop
+
+---
+# 4. Get out of the loop
 By now, we scraped the web to create a detailed database of the most prolific players. Then we have cleaned and explored the data for the purpose to create a dashboard on Tableau. By now, we can share on our website our dashboard and start using it like a tool to compare the different players. Nevertheless, if the data are not updated every week dashboard will become useless and non-accurate. As each team plays on average one game per week, players statistics' will grow every week and the dashboard will be up to date. If we don't need to update our data as often, we can manually update it. However, this boring task can be updated and we can make better use of our time!
 
-**Automate the update of our dashboard ?**<br/>
-For me, we have different kind of solution, first case the data need to be updated on a high frequency, for instance, every hour or every ten minutes.  In this case, we need to write a program that refreshes our data on a schedule. For more detailed you can find [here](https://automatetheboringstuff.com/2e/chapter17/) a really well-written paper on how to deal it with python. As a drawback, we need a computer which will run full time to keep the python program running.
+**Automate the boring stuff**
 
-On the other hand, if we don’t need to refresh the data as often as that, we might prefer a program that collects the data every time we start our computer. However, with Tableau the data are auto-update every day. Therefore, it is difficult to create a product with a high frequency of new data on Tableau. In this case, look at a more complex solution such as a JavaScript dashboard or else... 
+As already discuss, our data need to be updated every week. To leave the loop, we will create [a background process](https://en.wikipedia.org/wiki/Daemon_(computing)) which run every Monday at 12:30 PM our programs. **I will explained how I handle it on my a MAC computer, it might be different on a different operating system**.  To do it I used a tool call launchd, a tool for starting, stopping and managing scripts and processes. First  you need to defined the task to proceed in background  on a XML code. You will give a name to our job, specify the task you need to automate, and define a schedule. This XML code are stored as a `.plist` in `~/Library/LaunchdAgents`.
 
-**What I have done?** 
-In my case I am still working on this part. I will update this post when I am done with it! 
+```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+    <plist version="1.0">
+    <dict>
+    		<!--script name-->
+        <key>Label</key>
+        <string>soccer.analysis</string>
+    
+    		<!--script job--> 
+        <key>ProgramArguments</key>
+        <array>
+            <string>/Users/axel/opt/anaconda3/bin/python</string> <!--python path-->
+            <string>file/path</string> <!--python file path-->
+        </array>
+    
+       <!--run every 3 hours-->
+    	<key>StartCalendarInterval</key>
+    	<dict>
+    		<key>Weekday</key>
+    		<integer>0</integer>
+    		<key>Hour</key>
+    		<integer>12</integer>
+    		<key>Minutes</key>
+    		<integer>30</integer>		
+    	</dict>
+    
+        <!--collect errors & output-->
+        <key>StandardOutPath</key>
+        <string>/tmp/collect.data.covid974.out</string>
+        <key>StandardErrorPath</key>
+        <string>/tmp/collect.data.covid974.err</string>
+    </dict>
+    </plist>
+```
 
-___
+Next from the shell we need to load our scripts.
+```zhs
+    cd ~/Library/LaunchAgents
+    launchdctl load soccer.analysis 
+```
+And that all our script will run our python in background every morning a 12:30 pm 🥳
+
+To have better explanation on this topic you might want take a look at this posts:
+
+- [**Launchd documentation**](https://www.launchd.info/), complete and well explain
+- [**How to Use launchd to Run Scripts on Schedule in macOS**](https://www.maketecheasier.com/use-launchd-run-scripts-on-schedule-macos/), detailed explanation of the process
+
+
 # Conclusion
-It is really important to practice and level up your skills on different projects! Even if you are not ready for it, try it even if it is not perfect. By the way, you will never be entirely ready to do something the idea is to learn on the road! If you have computer thinking skills you will find the grammar online as long as the language has a wide community. You will never walk alone my friend, believe me ;)
+___
+I realised how is it important to work on personal project to level up and sharpen my skills. Moreover, as long as we clearly define what we want to do grammatical language programming are easy to find online - when the community is wide. That why from my perspective, the most important skills are for me computer thinking, and problems solving.

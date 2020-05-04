@@ -1,167 +1,11 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-  <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <title>
-    
-       &middot; A DATA SCIENCE LEARNING BLOG
-    
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/my_blog/public/css/poole.css">
-  <link rel="stylesheet" href="/my_blog/public/css/syntax.css">
-  <link rel="stylesheet" href="/my_blog/public/css/lanyon.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/my_blog/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="/my_blog/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-</head>
-
-
-  <body class="theme-base-0c">
-
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p></p>
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/my_blog/">Home</a>
-
-    
-
-    
-    
-      
-    
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/my_blog/about/">About me</a>
-        
-      
-    
-      
-    
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/my_blog/project/">Projects</a>
-        
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/my_blog/teaching/">Teaching</a>
-        
-      
-    
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; 2020. Lanyon design, all rights reserved.
-    </p>
-     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<div id="share-bar">
-
-    <div class="share-buttons">
-
-        <a  href="https://fr.linkedin.com/in/axel-rasse-bbbb3812b"
-            title="LinkedIn icon" >
-            <i class="fa fa-linkedin share-button"></i>
-        </a>
-
-        <a  href="https://github.com/axelearning"
-            title="github icon" >
-            <i class="fa fa-github"></i>
-        </a>
-
-    </div>
-
-</div>
-
-<style>
-    /* Share Bar */
-    #share-bar {
-        font-size: 25px;
-    }
-
-    /* Each button */
-    .share-button {
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-right: 5px;
-        padding: 5px 10px 5px 10px;
-    }
-    .share-button:hover {
-        opacity: 1;
-        color: #ffffff;
-    }
-
-    /* LinkedIn button */
-    .fa-linkedin {
-        color: #444444;
-    }
-    .fa-linkedin:hover {
-        background-color: #444444;
-    }
-
-    /* github button */
-    .fa-github {
-        color: #444444;
-        margin: 0px;
-        margin-bottom: 10px;
-        margin-right: 5px;
-        padding: 5px 10px 5px 10px;
-    }
-    .fa-github:hover {
-        background-color: #444444;
-        opacity: 1;
-        color: #ffffff;
-    }
-</style>
-  </div>
-</div>
-
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/my_blog/" title="Home">A DATA SCIENCE LEARNING BLOG</a>
-            <small></small>
-          </h3>
-        </div>
-      </div>
-      <div class="container content">
-        <h1 id="how-i-learned-data-science">How I learned Data Science?</h1>
+I"�<h1 id="how-i-learned-data-science">How I learned Data Science?</h1>
 <p>Hey, welcome on bord, here you can follow my progress in data science. Below I have mapped <code class="highlighter-rouge">the learning path</code> I am following. I will update that path as I discover more content. Of course, it is not an exhaustive list.</p>
 
 <h1 id="progress-and-futur-work">Progress and futur work</h1>
+<p>Here you can follow my progression with the messy mind map bellow:</p>
 
-<p><img src="assets/mind_map2.png" alt="Coggle_data_science" /></p>
+<p><img src="assets/mind_map2.png" alt="Coggle_data_science" />
+In the next following sections, we will go through all this different fields.</p>
 <hr />
 
 <ul>
@@ -188,9 +32,7 @@
   <li>Introduction to cyber security</li>
 </ul>
 
-<h1 id="my-curiculum">My Curiculum</h1>
-<p>In the next following sections, we will go through all this different fields.</p>
-<h2 id="1--the-big-picture-of-data-science">1.  The big picture of Data Science</h2>
+<h1 id="1--the-big-picture-of-data-science">1.  The big picture of Data Science</h1>
 <p>First, it is important to have a good overview of this broad subject. In that purpose, understanding <a href="http://localhost:4000/my_blog/what_does_a_datascientist">the job of a data scientist</a> is primordial. As a resume, I gather in the list and the mind map bellow all the <em>“tools”</em> you and I will need to master in Data Science:</p>
 
 <ul>
@@ -202,7 +44,7 @@
 
 <hr />
 
-<h2 id="2--a-spark-of-motivation">2.  A spark of motivation</h2>
+<h1 id="2--a-spark-of-motivation">2.  A spark of motivation</h1>
 <p>As a spark of motivation I start by understanding the basic of Machine Learning. The goal here is to gain sens and motivation for the futur work in math and code. I recommend Vishal Maini &amp; Samer Sabri’s book, this is a good resource to start with the big picture of artificial intelligence and machine learning.</p>
 
 <figure>
@@ -219,7 +61,7 @@
 
 <hr />
 
-<h2 id="3-math">3. Math</h2>
+<h1 id="3-math">3. Math</h1>
 <p>To have a deeper understanding of machine learning, I review some mathematical knowledge. My goal is about creating mathematical intuition rather than learn the formulas and computation methods.</p>
 <h3 id="︎-introduction-to-linear-algebra-and-calculus">✔︎ Introduction to Linear Algebra and Calculus</h3>
 <p><a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra</a> &amp; <a href="https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr">Essence of Calculus</a>: I highly recommend to see the videos of Grant Sanderson. His visual approach with superb animations will give you a solid conceptualization of those subjects.</p>
@@ -237,7 +79,7 @@
 </ul>
 <hr />
 
-<h2 id="4data-analysis">4.Data Analysis</h2>
+<h1 id="4data-analysis">4.Data Analysis</h1>
 <p>If you want to get into Data Science, you have to know how to manipulate data. Most of your time, as a data scientist engineer, will be spend on manipulating, analysing and getting data ready for modeling. <strong>I recommend to perform data analysis with pandas</strong>, the popular open source library for data analysis in Python.</p>
 
 <p>One of the creator of pandas, Wes McKinney, wrote a book called <em>“Python Data Analysis”</em> and it is a really good choice for learning data analysis in Python. <strong>This book show you how to solve a broad set of data analysis problems effectively</strong>. You will get complete instructions for manipulating, processing, cleaning, and crunching dataset. It is well written and the real-world examples are really usefull to understand the workflow of data analysis in Python.</p>
@@ -247,7 +89,7 @@
   </a>
 </figure>
 
-<p>As a complement, in <a href="https://matterhorn.dce.harvard.edu/engage/ui/index.html#/2016/01/14328">the Harvard course on Data science</a>, you will find great lectures on data analysis. I really recommend to at least take a look to <a href="https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=4dc7719e-1ef4-4ee5-a9d9-fc48c3e13185">Exploratory Data Analysis and effective Visualizations</a>, you will discover some usefull principles for effective visualization. Take also a look at plotly and Tableau to complete your skills in data visualization.</p>
+<p>As a complement, in <a href="https://matterhorn.dce.harvard.edu/engage/ui/index.html#/2016/01/14328">the Harvard course on Data science</a>, you will find great lectures on data analysis. I really recommend to at least take a look to <a href="https://matterhorn.dce.harvard.edu/engage/player/watch.html?id=4dc7719e-1ef4-4ee5-a9d9-fc48c3e13185">Exploratory Data Analysis and effective Visualizations</a>, you will discover some usefull principles for effective visualization.</p>
 
 <h2 id="what-i-have-learned-2"><code class="highlighter-rouge">What I have learned?</code></h2>
 <ul>
@@ -257,28 +99,17 @@
   <li>manipulate time series data</li>
   <li>learn how to solve real world data analysis problems with detailed examples</li>
 </ul>
+<hr />
 
 <hr />
 
-<h2 id="5-machine-learning">5. Machine learning</h2>
-<p>Through the book Hands‑On Machine Learning with Scikit‑Learn, Keras, and TensorFlow by Aurélien Géron I discovered the machine learning landscape. Each chapter ends by a quizz and few coding project. A really enjoy this mix between learning new knowledge, testing your understanding with the quizz and practising on project.</p>
-
-<figure>
-  <a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/"><img src="./assets/Hands_on_ml.jpg" />
-  </a>
-</figure>
-
-<h2 id="what-i-have-learned-3"><code class="highlighter-rouge">What I have learned?</code></h2>
+<h1 id="projects-and-ideas">Projects and ideas</h1>
 <ul>
-  <li>Explore the machine learning landscape, particularly neural nets</li>
-  <li>Use Scikit-Learn to track an example machine-learning project end-to-end</li>
-  <li>Explore several training models, including support vector machines, decision trees, random forests, and ensemble methods</li>
-  <li>Use the TensorFlow library to build and train neural nets</li>
-  <li>Dive into neural net architectures, including convolutional nets, recurrent nets, and deep reinforcement learning</li>
-  <li>Learn techniques for training and scaling deep neural nets</li>
+  <li>A data analysis project on soccer or <a href="https://data.enedis.fr/explore/?sort=modified&amp;refine.theme=%C3%89nergie">enedis data</a> - allocate 2h next week for that</li>
+  <li>A software who gather all the important job offer</li>
 </ul>
-
 <hr />
+
 <blockquote>
   <p>“Value of knowledge shouldn’t depend upon where that knowledge was acquired” <cite>— <a href="https://www.youtube.com/channel/UC68KSmHePPePCjW4v57VPQg"><em>Giles McMullen-Klein</em></a></cite>. Special thanks to this guy who gathers a lot of different resources about data science. Those videos are superb and motivational.</p>
 </blockquote>
@@ -299,28 +130,4 @@
   
 </ul>
 
-
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
-  </body>
-</html>
+:ET
